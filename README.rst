@@ -8,3 +8,5 @@
 	可以讓他自動跑 shell Script 可用來執行安裝套件腳本。
 	
 3.根據 http://docs.vagrantup.com/v2/synced-folders/index.html 文檔說明，/vagrant 目錄將是 client 與 host 端的同步資料夾！
+4.有關 vagrant up 內執行過的 vagrantfile 內之 shell Script 安裝套件腳本，如果要重新執行就把 .vagrant 資料夾刪除即可！
+
